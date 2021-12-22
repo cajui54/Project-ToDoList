@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Oxygen+Mono&family=Press+Start+2P&family=Righteous&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+</head>
+<body>
+
+     <div id="frm-list">
+         <h1 id='frm__title'>Lista de Tarefa</h1>
+
+         <div class="contanerInput">
+             <input type="text" id="texto-tarefa" placeholder="digite sua tarefa" autocomplete="off">
+             <button id="criar-tarefa">add</button>
+         </div>
+         <div class="contaner-button">
+             <!--Remove All-->
+            <button id='apaga-tudo' value="Apagar tudo"><i class="fas fa-trash"></i></button>
+            <!--Remover Elementos Finalizados-->
+            <button id="remover-finalizados" value="Remover elementos Finalizados"><i class="fas fa-trash-restore"></i></button>
+            <!--Salvar Lista-->
+            <button id="salvar-tarefas" value="Salvar"><i class="fas fa-save"></i></button>
+            <!--UP-->
+            <button id='mover-cima' value="Mover item para cima"><i class="fas fa-arrow-up"></i></button>
+            <!--DOWN-->
+            <button id='mover-baixo' value="Mover item para baixo"><i class="fas fa-arrow-down"></i></button>
+            <!--Remover item Selecionado-->
+            <button id='remover-selecionado' value="Remover item selecionado"><i class="fas fa-check"></i></button>
+        </div>
+        <div class="container-info"></div>
+        
+        <ol id="lista-tarefas">
+        </ol>
+
+       
+  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
