@@ -8,9 +8,9 @@ body{
 }
 /*
     font-family: 'Italianno', cursive;
-font-family: 'Oxygen Mono', monospace;
-font-family: 'Press Start 2P', cursive;
-font-family: 'Righteous', cursive;
+    font-family: 'Oxygen Mono', monospace;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Righteous', cursive;
 */
 #frm-list{
     background-color: rgba(255, 255, 255, .9);
@@ -70,7 +70,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 }
 #lista-tarefas{
     width: 80%;
-    margin: 50px auto;
+    margin: 10px auto;
     list-style: none;
     font-family: 'Righteous', cursive, Arial, Helvetica, sans-serif;
 }
